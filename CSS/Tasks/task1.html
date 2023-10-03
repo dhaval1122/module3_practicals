@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            background-color: #1e8ba2;
+            background: -webkit-linear-gradient(left,#1e8ba2,#d3c0b2);
+            background: -moz-linear-gradient(left,#1e8ba2,#d3c0b2);
+            background: -o-linear-gradient(left,#1e8ba2,#d3c0b2);
+            background: linear-gradient(to right,#1e8ba2,#d3c0b2);
+        }
+        #header
+        {
+            width: 100%;
+            height: auto;
+            margin: 0px;
+            padding: 15px;
+            display: flex;
+            flex-direction: row;
+        }
+        .logo 
+        {
+            width: 15%;
+            height: auto;
+            font-size: 34px;
+            margin-left: 4%;
+            margin-top: 1%;
+        }
+        .logo b
+        {
+            color: white;
+        }
+        .navbar
+        {
+            width: 45%;
+            height: auto;
+        }
+        .navbar ul li 
+        {
+            list-style-type: none;
+            text-decoration: none;
+            font-size: 16px;
+            letter-spacing: 1px;
+            color: white;
+            float: left;
+            padding: 10px 25px;
+        }
+        .navbar ul li a
+        {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+            
+        } 
+        .searchbar
+        {
+            width: 15%;
+            margin-top: 1.5%;
+        }
+        .button
+        {
+            width: 15%;
+        }
+        .button1
+        {
+            width: 65%;
+            height: auto;
+            border: none;
+            padding: 15px 20px;
+            margin-top: 3%;
+            background-color: white;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 30px;
+        }
+        #slider
+        {
+            width: 100%;
+            height: auto;
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+        }
+        .left-sidebar
+        {
+            width: 45%;
+            height: auto;
+            margin-left: 5%;
+            margin-top: 2%;
+            float: left;
+        }
+        .left-sidebar h1
+        {
+            
+            color: white;
+            font-size: 76px;
+            float: left;
+            
+        }
+        .left-sidebar p
+        {
+            width: 65%;
+            color: white;
+            font-size: 24px;
+        }
+        .right-sidebar
+        {
+            width: 55%;
+            height: auto;
+            float: right;
+            margin-top: 4%;
+            margin-left: 5%;
+        }
+        .right-sidebar img
+        {
+            width: 70%;
+            height: 430px;
+            margin-left: 6%;
+        }
+        .button2
+        {
+            width: 60%;
+        }
+        .btn2
+        {
+            width: 60%;
+            height: auto;
+            border: none;
+            padding: 18px 20px;
+            margin-top: 3%;
+            background-color: #d3c0b2;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <section id="header">
+        <div class="logo"><b>Dhaval</b></div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PROGRAM</a></li>
+                <li><a href="">COURSES</a></li>
+                <li><a href="">REVIEWS</a></li>
+            </ul>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="searchbar">
+            <input type="text" name="search-box" placeholder="Search here...">
+        </div>
+        <div class="button">
+            <button class="button1"><b>SIGN IN</b></button>
+        </div>
+    </section>
+    <!-- Slider Section -->
+    <section id="slider">
+        <div class="left-sidebar">
+            <h1>Your next big idea start here</h1>
+            <p>The ideal framework to learn how to manage all aspects of startup.</p>
+
+            <div class="button2">
+                <button class="btn2"><b>START FOR FREE</b></button>
+            </div>
+        </div>
+        <div class="right-sidebar">
+            <img src="images/slider_image.png" alt="slider-image">
+        </div>
+    </section>
+</body>
+</html>
